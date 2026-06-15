@@ -185,4 +185,13 @@ python main.py
 pause
 
 
+py -m PyInstaller --onefile --windowed --name "WarehouseApp" main.py
+
+
+py -m pip install ttkbootstrap
+
+py -m pip install pyinstaller
+
+py -m pip install mysql-connector-python
+
 
